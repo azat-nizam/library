@@ -1,0 +1,187 @@
+html,body{
+	height:100%;
+}
+body{
+	overflow-y:scroll;
+}
+.clear{
+	clear:both;
+}
+.wrap{
+	height:auto;
+	margin:0 auto -60px;
+	min-height:100%;
+	padding:0 0 60px;
+}
+.wrap > .container{
+	padding:10px 15px 20px;
+}
+.footer{
+	background:#f5f5f5;
+	border-top:1px solid #ddd;
+	height:60px;
+	padding-top:20px;
+}
+.jumbotron{
+	background:transparent;
+	text-align:center;
+}
+.jumbotron .btn{
+	font-size:21px;
+	padding:14px 24px;
+}
+.not-set{
+	color:#c55;
+	font-style:italic;
+}
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after{
+	display:inline-block;
+	font-family:'Glyphicons Halflings';
+	font-style:normal;
+	font-weight:normal;
+	line-height:1;
+	padding:5px 0 0;
+	position:relative;
+	top:1px;
+}
+a.asc:after{
+	content:/*"\e113"*/"\e151";
+}
+a.desc:after{
+	content:/*"\e114"*/"\e152";
+}
+.sort-numerical a.asc:after{
+	content:"\e153";
+}
+.sort-numerical a.desc:after{
+	content:"\e154";
+}
+.sort-ordinal a.asc:after{
+	content:"\e155";
+}
+.sort-ordinal a.desc:after{
+	content:"\e156";
+}
+.grid-view th{
+	white-space: nowrap;
+}
+.hint-block{
+	display: block;
+	margin-top: 5px;
+	color: #999;
+}
+.error-summary{
+	color: #a94442;
+	background: #fdf7f7;
+	border-left: 3px solid #eed3d7;
+	padding: 10px 20px;
+	margin: 0 0 15px 0;
+}
+.search-container{
+	height:34px;
+	overflow:hidden;
+}
+.search{
+	position:relative;
+}
+.search .close-search{
+	position:absolute;
+	right:27px;
+	top:7px;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+.search .close-search:focus{
+	outline:none;
+}
+.preloader{
+	background:url(/img/preloader.gif) center center no-repeat;
+	display:inline-block;
+	height:24px;
+	vertical-align:middle;
+	width:24px;
+}
+.inaccessible-book{
+	color:#999;
+}
+.book-free,.book-busy,.book-inaccessible{
+	width:128px;
+}
+.book-free{
+	color:#4cae4c;
+}
+.book-busy{
+	color:#d43f3a;
+}
+.book-inaccessible{
+	color:#000;
+}
+.book-author{
+	display:inline-block;
+	width:120px;
+}
+.book-name{
+	width:700px;
+}
+.book-reader{
+	width:120px;
+}
+.book-taking-date{
+	width:120px;
+}
+.book-return-date{
+	width:120px;
+}
+.book-status{
+	width:120px;
+}
+.date-expired{
+	color:#d43f3a;
+}
+.table-own-striped > tbody > tr:nth-of-type(odd){
+	background:#F0FFF0;
+}
+.tab-pane-row{
+	
+}
+.cp{
+	cursor:pointer;
+}
+
+
+.summary+.table-bordered{
+	margin: 0;
+}
+.table-bordered{
+	margin:20px 0 0;
+}
+
+
+.summary{
+	font-size:12px;
+	padding:7px 0 5px 5px;
+}
+
+.field-book-startdate label,.field-book-enddate label{
+	width:120px;
+}
+.editable-field{
+	
+}
+.editable-field span{
+	color:#337ab7;
+	cursor:pointer;
+	border-bottom:1px dotted #337ab7;
+}
+.editable-field input{
+	width:300px;
+}
+.add-category{
+	margin:10px 0 0;
+}
+.response{
+	margin:0 0 0 10px;
+}
